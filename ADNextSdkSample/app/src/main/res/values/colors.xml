@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="feed_bg">#555555</color>
+    <color name="feed_description_bg">#dff7f4</color>
+    <color name="feed_img_bg">#ffffff</color>
+    <color name="feed_name">#ff000000</color>
+    <color name="feed_status">#aaa</color>
+    <color name="feed_landing">#338eff</color>
+
+    <color name="song_bg">#ffffff</color>
+    <color name="song_divider">#ddd</color>
+    <color name="song_description_bg">#ffffff</color>
+    <color name="song_title">#ff000000</color>
+    <color name="song_artist">#aaa</color>
+    <color name="song_duration">#aaa</color>
+    <color name="song_landing">#338eff</color>
+</resources>
