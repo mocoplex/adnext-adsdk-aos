@@ -15,6 +15,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.MemoryCategory;
 import com.mocoplex.adnext.AdlibManager;
 import com.mocoplex.jarsample.banner.BannerDynamicActivity;
+import com.mocoplex.jarsample.banner.LargeBannerDynamicActivity;
 import com.mocoplex.jarsample.interstitial.IntersDynamicActivity;
 
 import java.util.ArrayList;
@@ -42,6 +43,9 @@ public class MainActivity extends ListActivity {
 
         TestListItem item = (TestListItem) view.getTag();
         switch (item) {
+            case LARGE_BANNER_DYNAMIC:
+                intent = new Intent(this, LargeBannerDynamicActivity.class);
+                break;
             case BANNER_DYNAMIC:
                 intent = new Intent(this, BannerDynamicActivity.class);
                 break;
@@ -62,6 +66,7 @@ public class MainActivity extends ListActivity {
 
         // 띠배너 샘플
         itemList.add(TestListItem.HEADER);
+        itemList.add(TestListItem.LARGE_BANNER_DYNAMIC);
         itemList.add(TestListItem.BANNER_DYNAMIC);
         itemList.add(TestListItem.INTERSTITIAL_DYNAMIC);
 

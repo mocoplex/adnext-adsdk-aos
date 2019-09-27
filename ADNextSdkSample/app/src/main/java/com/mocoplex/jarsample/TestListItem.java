@@ -4,6 +4,7 @@ public enum TestListItem {
 
     HEADER("AD", true),
     BANNER_DYNAMIC("Banner Dynamic"),
+    LARGE_BANNER_DYNAMIC("Large Banner Dynamic"),
     INTERSTITIAL_DYNAMIC("Interstitial Dynamic");
 
     private String value;
