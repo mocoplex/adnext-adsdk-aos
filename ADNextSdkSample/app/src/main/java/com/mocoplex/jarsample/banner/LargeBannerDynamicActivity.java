@@ -83,8 +83,7 @@ public class LargeBannerDynamicActivity extends AppCompatActivity {
             }
 
         };
-        // 다이나믹 광고의 경우 미디에이션을 지원하지 않습니다
-        // 띠배너 종류 사이즈 320 * 50 , 320 * 70
+
         if (adlibManager != null) adlibManager.requestDynamicBannerView(1024, 748, handler);
     }
 
